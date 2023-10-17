@@ -1,0 +1,792 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*
+{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+header
+{
+    width: 100%;
+    height: 70px;
+    background-color:white;
+    position: fixed;
+    z-index: 100;
+}
+header ul  
+{
+    float: left;
+    list-style: none;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+header ul li 
+{
+    display: inline-block;
+    font-size:30px;
+}
+.ul1 li a
+{
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    margin-left: 13px;
+    text-transform: capitalize;
+}
+.ul1 li a:hover
+{
+    color: rgb(20, 218, 20);
+}
+.ul2 li a 
+{
+    width:25px ;
+    height:20px;
+    background-color: rgb(235, 239, 243);
+    font-size: 30px;
+    color: black;
+    margin-left: 10px;
+}   
+.ul2 li a:hover
+{
+    background-color:rgb(20, 218, 20);
+    color: white;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+.one
+{
+    width: 100%;
+    height: 70vh;
+    padding-top: 80px;
+    line-height: 40px;
+}
+.one .img-one
+{
+    position: relative;
+    float:right;
+    width: 60%;
+    height: 90%;
+    padding-top: 20px;
+}
+.one .img-one1
+{
+    position: absolute;
+    float: right;
+    width:25% ;
+    height: 45%;
+    left: 850px;
+    top: 200px;
+}
+.content-one
+{
+    padding-top: 50px;
+    padding-left: 10px;
+}
+.content-one .p-one
+{
+    font-size: 18px;
+}
+.content-one .h2-one
+{
+    font-size: 40px;
+    text-transform: capitalize;
+    line-height: 50px;
+}
+.content-one .button-one
+{
+    text-align: center;
+    text-transform: capitalize;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: green;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+.two
+{
+    width: 100%;
+    height: 30vh;
+}
+.box-two
+{
+    width: 90%;
+    padding-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+.content-two 
+{
+    display: inline-block;
+    width: 120px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: rgb(231, 223, 223);
+    text-align: center;
+    margin-left: 20px;
+}
+.content-two:hover
+{
+    background-color: rgb(3, 82, 78);
+    color: white;
+}
+.content-two .img-two 
+{
+    width: 90px;
+    height: 70px;
+}
+.content-two .p-two
+{
+   margin-left: 10px;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+.three
+{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(231, 223, 223);
+    line-height: 40px;
+}
+.three .img-three
+{
+    float:left;
+    width: 40%;
+    height: 90%;
+    padding-top: 40px;
+}
+.content-three
+{
+    padding-top: 100px;
+}
+.content-three em
+{
+    color: green;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.content-three .h1-three
+{
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.content-three .button-three
+{
+    text-align: center;
+    text-transform: capitalize;
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.box-three
+{
+    display:inline-block;
+    margin-top: 10px;
+    width: 270px;
+    height: 70px;
+    background-color:white;
+}
+.box-three .p-three
+{
+    text-transform: capitalize;
+}
+.box-three .span-three
+{
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.four
+{
+    width: 100%;
+    height: 120vh;
+}  
+.four .h2-four
+{
+    padding-top: 30px;
+    padding-left: 550px;
+    color: green;
+    text-transform: capitalize;
+}
+.four .h1-four
+{
+    padding-left: 500px;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.box-four
+{
+    width: 80%;
+    margin-left: 200px;
+    padding-top: 20px;
+}
+.content-four
+{
+    width: 20%;
+    height: 270px;
+    background-color: rgb(231, 223, 223) ;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+.content-four .hh
+{
+    float: right;
+    font-size: 30px;
+}
+.content-four .hh:hover
+{
+    color: rgb(11, 121, 75);
+}
+.content-four img
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;  
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.p-four
+{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.p-four1
+{
+    font-size: 20px;
+}
+.span-four
+{
+    font-size: 15px;
+}
+.button-four
+{
+    text-align: center;
+    text-transform: capitalize;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(11, 121, 75);
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+.five
+{
+    width: 100%;
+    height: 120vh;
+}
+.box-five
+{
+    width: 80%;
+    height: 120vh;
+    margin: auto;  
+    position: relative;
+}
+.content-five .img-five
+{
+    width: 100%;
+    height: 50%;
+}
+.offer-five
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-top: 80px;
+    margin-left: 30px;
+    line-height: 40px;
+    padding-left: 30px;
+}
+.offer-five em
+{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.offer-five b
+{
+    font-size: 40px;
+    color: red;
+}
+.offer-five p
+{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.offer-five button
+{
+    text-align: center;
+    text-transform: capitalize;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(11, 121, 75);
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.offer-five1
+{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    line-height: 40px;
+    padding-left: 20px;
+}
+.offer-five1 .p1
+{
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.offer-five1 .p1
+{
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.offer-five1 .b1
+{
+    color: white;
+    font-size: 30px;
+}
+.offer-five1 button
+{
+    text-align: center;
+    text-transform: capitalize;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(11, 121, 75);
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.offer-five2
+{
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left: 30px;
+    text-align: center;
+}
+.offer-five2 .p1
+{
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.offer-five2 .b1
+{
+    color:blue;
+    font-size: 25px;
+}
+.offer-five2 button
+{
+    text-align: center;
+    text-transform: capitalize;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(11, 121, 75);
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.offer-five3
+{
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.offer-five3 .p1
+{
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.offer-five3 .b1
+{
+    color:white;
+    font-size: 25px;
+}
+.offer-five3 button
+{
+    text-align: center;
+    text-transform: capitalize;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(11, 121, 75);
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.box-five .im
+{
+    width:33% ;
+    height: 40%;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+.six
+{
+    width: 100%;
+    height: 70vh;
+}
+.p-six
+{
+    color: green;
+    margin-left: 560px;
+    padding-top: 50px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.h1-six
+{
+    margin-left: 500px;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.box-six
+{
+    display: inline-block;
+    width: 20%;
+    height: 20vh;
+    background-color:rgb(226, 223, 223) ;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.box-six:hover
+{
+    background-color:rgb(3, 82, 78) ;
+    color: white;
+}
+.box-six img
+{
+    float: left;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.p2-six
+{
+    text-transform: capitalize;
+    padding-top: 30px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.span-six
+{
+    color: green;
+}
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+.seven
+{
+    width: 100%;
+    height: 50vh;
+}
+.p-seven1
+{
+    color: green;
+    margin-left: 560px;
+    padding-top: 50px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.h1-seven
+{
+    text-transform: capitalize;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 500px;
+    font-size: 30px;
+}
+.box-seven
+{
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    background-color: rgb(226, 223, 223);
+    margin-left: 60px;
+}.img-seven
+{
+    margin-left: 120px;
+}
+.p-seven
+{
+    text-transform: capitalize;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.form
+{
+    width: 100%;
+    height: 60vh;
+    /* background-color: aqua; */
+}
+.content-form
+{
+    width: 40%;
+    height: 50vh;
+    background-color: rgb(238, 231, 231);
+    margin-left: 10%;
+    margin-top:5vh ;
+    padding-top: 20px;
+    display: inline-block;
+}
+.button-form
+{
+    width: 150px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+}
+.box-form
+{
+    width: 40%;
+    height: 50vh;
+    background-color: rgb(238, 231, 231);
+    float: right;
+    margin-right:10% ;
+    margin-top:5vh ;
+    padding-top: 20px;
+}
+.p-form
+{
+    text-transform: capitalize;
+}
+input
+{
+    width: 80%;
+    height: 30px;
+    
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+.eight
+{
+    width: 100%;
+    height: 120vh;
+}
+.box-eight
+{
+    width: 80%;
+    height: 80vh;
+    margin-top: 5vh;
+    margin-left: 140px;
+}
+.p-eight1
+{
+    color: green;
+    margin-left: 560px;
+    padding-top: 50px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.h1-eight
+{
+    text-transform: capitalize;
+    font-size: 40px;
+    padding-left: 480px;
+    padding-bottom: 20px;
+}
+.content-eight
+{
+    display: inline-block;
+    width: 30%;
+    height: 80vh;
+    background-color:rgb(238, 231, 231);
+    margin-left: 22px;
+}
+.img-eight
+{
+    width: 80%;
+    height: 35vh;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+.img-eight:hover
+{
+    transform: scale(1.2);
+}
+.h2-eight
+{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.button-eight
+{
+    text-align: center;
+    text-transform: capitalize;
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+.nine 
+{
+    width: 100%;
+    height: 70vh;
+    background-color:rgb(238, 231, 231);
+}
+.h1-nine
+{
+    text-transform: capitalize;
+    font-size: 40px;
+    padding-left: 500px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.nine input
+{
+    width: 300px;
+    height: 40px;
+    margin-left: 430px;
+}
+.button-nine
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: green;
+    border: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+.box-nine
+{
+    width: 80%;
+    height: 60vh;
+    margin-top: 40px;
+    margin-left: 10%;
+}
+.h3-nine
+{
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.p-nine
+{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.p-nine i
+{
+    font-size: 20px;
+}
+.content-nine
+{
+    display: inline-block;
+    width: 24%;
+    height:45vh;
+    line-height: 30px;
+    text-transform: capitalize;
+    margin-left: 1px;
+}
+.cc
+{
+    line-height:24px;
+}
+
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+footer
+{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(236, 233, 233);
+}
+.footer-content
+{
+    text-align: center;
+    font-size: 50px;
+}
+.footer-content i
+{
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
